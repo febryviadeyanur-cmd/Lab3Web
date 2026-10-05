@@ -3,7 +3,9 @@
 Repository ini berisi hasil pengerjaan Praktikum 3 mata kuliah Pemrograman Web, dengan topik CSS Dasar (Internal, Inline, Eksternal, dan CSS Selector).
 
 **Dosen Pengampu:** Agung Nugroho
+
 **Mata Kuliah:** Pemrograman Web
+
 **Praktikum:** Praktikum 3 - CSS Dasar
 
 ## Tujuan Praktikum
@@ -33,7 +35,7 @@ Membuat struktur dasar HTML dengan `<header>`, `<nav>`, dan `<div id="intro">` y
 
 Hasil tampilan awal:
 
-![alt text](<image 1.png>)
+<img width="959" height="482" alt="image 1" src="https://github.com/user-attachments/assets/01824f1d-1a52-4996-9e8f-caed8cfb47a2" />
 
 ### 2. CSS Internal
 
@@ -73,11 +75,8 @@ h1 i {
 
 Hasil setelah ditambahkan CSS internal:
 
-![alt text](<image 3.png>)
+<img width="959" height="480" alt="image 2" src="https://github.com/user-attachments/assets/8ab34762-df75-49b0-a46f-5c4879dedc84" />
 
-Hasil yang sudah di rapihkan:
-
-![alt text](<image 2.png>)
 
 ### 3. Inline CSS
 
@@ -89,11 +88,11 @@ Pada langkah ini ditambahkan CSS langsung pada tag HTML menggunakan atribut `sty
 
 CSS digunakan untuk mengatur posisi teks menjadi rata tengah dan mengubah warna teks.
 
-![alt text](<image 3.png>)
+<img width="959" height="483" alt="image 3" src="https://github.com/user-attachments/assets/ce3e09f3-2fe6-4aed-acc8-5528c089bc93" />
 
 Hasil setelah ditambahkan Inline CSS:
 
-![alt text](<image 4.png>)
+<img width="959" height="479" alt="image 4" src="https://github.com/user-attachments/assets/a848b7a5-b08a-40e4-99be-5c8d60b81577" />
 
 ### 4. CSS Eksternal
 
@@ -109,7 +108,7 @@ Dengan menggunakan CSS eksternal, kode CSS dipisahkan dari file HTML.
 
 Hasil setelah CSS eksternal digunakan:
 
-![alt text](<image 5.png>)
+<img width="959" height="482" alt="image 5" src="https://github.com/user-attachments/assets/f047f18c-8e4e-4c52-8c9c-fffac2ee3739" />
 
 ### 5. CSS Selector
 
@@ -147,7 +146,7 @@ CSS yang dikerjakan:
 
 Hasil akhir praktikum:
 
-![alt text](<image 6.png>)
+<img width="959" height="480" alt="image 6" src="https://github.com/user-attachments/assets/63673c96-4d93-4823-b3a6-5f90871ed9ed" />
 
 ---
 
@@ -167,7 +166,7 @@ Dari percobaan dapat dilihat bahwa perubahan nilai CSS dapat mengubah tampilan e
 
 Hasil dari percobaan:
 
-![alt text](Percobaan_1.png)
+<img width="959" height="502" alt="Percobaan_1" src="https://github.com/user-attachments/assets/ae08bfac-ca43-4707-abcb-6ae81401407e" />
 
 ### 2. Perbedaan `h1 {...}` dengan `#intro h1 {...}`
 
@@ -252,14 +251,18 @@ Validasi dilakukan dengan cara mengunggah file `style_eksternal.css` ke W3C CSS 
 
 Validasi CSS:
 
-![alt text](<validasi css.png>)
+<img width="958" height="440" alt="validasi css" src="https://github.com/user-attachments/assets/f222b02b-b634-42ff-9f1b-986deffdc382" />
 
 Validasi Style eksternal
 
-![alt text](<validasi style.png>)
+<img width="956" height="440" alt="validasi style" src="https://github.com/user-attachments/assets/e8619445-2379-4a93-b43f-27772d6e0094" />
 
 ## Kesimpulan
 
-Pada praktikum ini dipelajari cara menggunakan CSS pada HTML, yaitu melalui CSS internal, inline, dan eksternal.
+Dari praktikum ini dapat disimpulkan bahwa CSS merupakan alat penting untuk mengatur tampilan halaman web agar lebih terstruktur, rapi, dan konsisten. Terdapat tiga cara penulisan CSS, yaitu Internal (ditulis di bagian `<head>` dengan tag `<style>`), Inline (ditulis langsung sebagai atribut `style` pada tag HTML), dan Eksternal (ditulis terpisah dalam file `.css` dan dihubungkan menggunakan tag `<link>`).
 
-Selain itu juga dipelajari penggunaan CSS Selector seperti selector elemen, ID, dan class untuk mengatur tampilan halaman web.
+Dari ketiga cara, CSS Eksternal lebih disarankan untuk digunakan pada project yang lebih besar karena memisahkan struktur (HTML) dari tampilan (CSS), sehingga kode lebih mudah dibaca, dikelola, dan digunakan ulang di beberapa halaman sekaligus.
+
+Selain itu, dipelajari juga penggunaan CSS Selector seperti selector elemen (`h1`,`nav`), ID (`#intro`), dan Class (`.button`) untuk menargetkan elemen tertentu dalam pengaturan style. Dari hasil eksperimen terlihat urutan prioritas CSS, dari yang terlemah hingga terkuat, adalah External CSS, Internal CSS, lalu Inline CSS, dan ID Selector memiliki specificity yang lebih tinggi dibandingkan Class Selector.
+
+Secara keseluruhan, praktikum ini membantu memahami bagaimana cara kerja CSS dalam mengatur tampilan halaman web, serta pentingnya memilih metode penulisan CSS yang tepat sesuai kebutuhan project.
