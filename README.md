@@ -4,6 +4,10 @@ Repository ini berisi hasil pengerjaan Praktikum 3 mata kuliah Pemrograman Web, 
 
 **Dosen Pengampu:** Agung Nugroho
 
+**Nama:** Febryvia Deya Nur Havidtar Murti Aqsa
+
+**Nim:** 312510194
+
 **Mata Kuliah:** Pemrograman Web
 
 **Praktikum:** Praktikum 3 - CSS Dasar
